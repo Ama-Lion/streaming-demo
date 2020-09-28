@@ -1,0 +1,171 @@
+/*TODO-------APP-------- */
+.App {
+  width: 100%;
+}
+
+/*TODO-------MOVIES/SERIES-------- */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 99%;
+}
+/*TODO-------MOVIE/SERIES PARENT-------- */
+.carding {
+  margin-top: 180px;
+  margin-bottom: 50px;
+}
+/*TODO-------MOVIE/SERIES CHILD-------- */
+.card {
+  color: black;
+  margin: 10px;
+  padding: 20px;
+  width: 20%;
+  box-shadow: 0px 10px 10px rgba(15, 27, 194, 0.301);
+}
+/*TODO-------MOVIE/SERIES HOVER-------- */
+.card:hover {
+  transform: scale(1.2);
+  z-index: 10;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+p {
+  font-size: 0.5rem;
+  width: 100%;
+}
+/*TODO-------HEADER-------- */
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  color: blue;
+}
+.btn {
+  margin: 10px;
+}
+
+/*TODO-------HOME-------- */
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+.box {
+  background-image: url("/assets/placeholder.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 300px;
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.753);
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  margin: 250px 5px 10px 10px;
+  justify-content: center;
+}
+
+/*TODO-------LOADING/ERROR-------- */
+.center {
+  height: 200px;
+  width: 400px;
+  margin: 250px auto 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/*TODO-------ERROR-------- */
+.red {
+  color: rgba(255, 0, 0, 0.794);
+  box-shadow: -2px 0px 10px 8px rgba(255, 0, 0, 0.794);
+}
+/*TODO-------LOADING-------- */
+.blue {
+  color: rgba(0, 0, 255, 0.705);
+  box-shadow: -2px 0px 10px 8px rgba(0, 0, 255, 0.705);
+}
+
+.title {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  box-shadow: -2px 0px 10px 8px rgba(0, 0, 255, 0.24);
+}
+
+/*TODO-------FOOTER-------- */
+footer {
+  height: 30vh;
+  background-color: black;
+}
+.menu {
+  margin: auto;
+}
+ul {
+  display: flex;
+}
+
+li {
+  color: rgba(255, 255, 255, 0.582);
+  list-style: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.582);
+  padding: 10px;
+  text-align: center;
+}
+li:hover {
+  color: rgb(37, 37, 246);
+}
+.menu p {
+  color: white;
+  font-size: 1rem;
+  margin-left: 50px;
+}
+/*TODO-------STORE/SOCIAL-------- */
+.share {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.social {
+  height: 40px;
+  margin: 10px;
+}
+.store {
+  height: 40px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 1110px) {
+  .App {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .cards {
+    width: 90%;
+  }
+
+  p {
+    width: 80%;
+  }
+  .box {
+    width: 45%;
+  }
+  footer {
+    height: 32vh;
+  }
+  .share {
+    margin: 10px;
+  }
+}
